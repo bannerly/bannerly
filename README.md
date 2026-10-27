@@ -1,13 +1,13 @@
 # bannerly
 
-**bannerly** は、広告配信プラットフォーム **Slotly** のプロジェクトです。
-Slotly は、スタートアップや小規模サービスのための軽量なマルチテナント広告配信サーバーで、自社の Web サイトやアプリに広告枠を持ち、提携先への直接販売と空き枠のバックフィルを、ひとつの管理画面で運用できます。
+**bannerly** は、広告配信プラットフォーム **bannerly** のプロジェクトです。
+bannerly は、スタートアップや小規模サービスのための軽量なマルチテナント広告配信サーバーで、自社の Web サイトやアプリに広告枠を持ち、提携先への直接販売と空き枠のバックフィルを、ひとつの管理画面で運用できます。
 
 ## リポジトリ
 
 | リポジトリ | 内容 |
 |---|---|
-| [server](https://github.com/bannerly/server) | Slotly 広告配信サーバー（Cloudflare Workers / D1 / KV / Queues） |
+| [server](https://github.com/bannerly/server) | bannerly 広告配信サーバー（Cloudflare Workers / D1 / KV / Queues） |
 | [sdk](https://github.com/bannerly/sdk) | Expo / React Native 用クライアント SDK |
 | [manifest](https://github.com/bannerly/manifest) | 全リポジトリをまとめて取得するための tsrc マニフェスト |
 
@@ -23,7 +23,7 @@ tsrc init https://github.com/bannerly/manifest.git
 tsrc sync
 ```
 
-## Slotly の特徴
+## bannerly の特徴
 
 - マルチテナント — テナントごとに枠・広告主・集計を分離
 - 配信ルール — 優先度（Override / Contract / Remnant）、重み付け、地域、曜日・時間帯、日次上限、フリークエンシーキャップ
