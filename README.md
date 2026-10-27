@@ -1,5 +1,7 @@
 # bannerly
 
+*bannerly — the banner platform for edge-native apps.*
+
 **bannerly** は、広告配信プラットフォーム **bannerly** のプロジェクトです。
 bannerly は、スタートアップや小規模サービスのための軽量な広告配信サーバーです。運用者は各自の Cloudflare にデプロイして使うセルフホスト型で、自社の Web サイトやアプリに広告枠を持ち、提携先への直接販売と空き枠のバックフィルを、ひとつの管理画面で運用できます。
 
